@@ -4,5 +4,23 @@
     }
     
     .body {
-        background-color: white;
+        background-color: rgba(247, 247, 247, 0.664);
+    }
+    
+    #portada {
+        width: 60%;
+        margin-left: 20%;
+        box-shadow: 1px 3px 2px black;
+        margin-top: 3px;
+    }
+    
+    .porta {
+        background-color: black;
+    }
+    
+    .titulo {
+        margin-left: 175px;
+        margin-top: -370px;
+        font-size: 70px;
+        color: rgb(72, 192, 16);
     }
