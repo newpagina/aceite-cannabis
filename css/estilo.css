@@ -37,6 +37,7 @@
     display: inline;
     margin-left: 800px;
     border-color: beige;
+    display: none;
 }
 
 #btn2 {
@@ -46,6 +47,7 @@
     background-color: rgba(0, 255, 255, 0.205);
     border-radius: 5px;
     border-color: beige;
+    display: none;
 }
 
 .uso {
