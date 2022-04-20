@@ -48,6 +48,36 @@
     border-color: beige;
 }
 
+.uso {
+    margin-top: 100px;
+}
+
+.uso h2 {
+    font-size: 2em;
+    margin-left: 8px;
+}
+
+.uso p {
+    font-size: 1.9em;
+    margin-left: 8px;
+}
+
+.list {
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.list li {
+    font-size: 1.5em;
+}
+
+#fondo2 {
+    width: 20%;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -300px;
+}
+
 @media(max-width: 980px) {
     #portada {
         width: 30%;
@@ -84,5 +114,30 @@
         border-radius: 5px;
         border-color: beige;
         margin-top: 10px;
+    }
+    .uso {
+        margin-top: 20px;
+    }
+    .uso h2 {
+        font-size: 1.8em;
+        margin-left: 8px;
+    }
+    .uso p {
+        font-size: 1.6em;
+        margin-left: 8px;
+    }
+    .list {
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+    .list li {
+        font-size: 1.5em;
+    }
+    #fondo2 {
+        width: 20%;
+        position: absolute;
+        margin-left: 60px;
+        margin-top: -300px;
+        display: none;
     }
 }
