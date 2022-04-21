@@ -137,8 +137,12 @@
 #fondo2 {
     width: 20%;
     position: absolute;
-    margin-left: 60px;
-    margin-top: -300px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+#fo {
+    display: none;
 }
 
 @media(max-width: 980px) {
@@ -250,14 +254,14 @@
     }
     .list {
         margin-left: 150px;
-        position: relative;
         margin-top: -160px;
     }
     #fo {
         width: 28%;
-        height: 25%;
+        height: 30%;
         margin-top: 20px;
         margin-left: 10px;
         z-index: auto;
+        display: flex;
     }
 }
