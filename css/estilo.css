@@ -227,11 +227,11 @@
         margin-top: 20px;
     }
     .uso h2 {
-        font-size: 1.8em;
-        margin-left: 8px;
+        font-size: 15px;
+        margin-left: 3px;
     }
     .uso p {
-        font-size: 1.6em;
+        font-size: 10px;
         margin-left: 8px;
     }
     .list {
@@ -239,7 +239,7 @@
         margin-left: 25px;
     }
     .list li {
-        font-size: 1.5em;
+        font-size: 10px;
     }
     #fondo2 {
         width: 20%;
@@ -247,5 +247,17 @@
         margin-left: 60px;
         margin-top: -300px;
         display: none;
+    }
+    .list {
+        margin-left: 150px;
+        position: relative;
+        margin-top: -160px;
+    }
+    #fo {
+        width: 28%;
+        height: 25%;
+        margin-top: 20px;
+        margin-left: 10px;
+        z-index: auto;
     }
 }
