@@ -239,7 +239,7 @@
         margin-left: 8px;
     }
     .list {
-        margin-top: 20px;
+        margin-top: 300px;
         margin-left: 25px;
     }
     .list li {
@@ -253,15 +253,13 @@
         display: none;
     }
     .list {
-        margin-left: 150px;
-        margin-top: -160px;
+        margin-left: 20px;
+        margin-top: 6px;
+        z-index: auto;
     }
     #fo {
-        width: 28%;
-        height: 30%;
         margin-top: 20px;
         margin-left: 10px;
-        z-index: auto;
         display: flex;
     }
 }

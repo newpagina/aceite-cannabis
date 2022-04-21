@@ -31,4 +31,19 @@
 
     menu.addEventListener("click", () => list.classList.toggle("menu_links--show"));
 
+
+    function zoomToggle(iWideSmall, iHighSmall, iWideLarge, iHighLarge, whichImage) {
+        oW = whichImage.style.width;
+        oH = whichImage.style.height;
+        if ((oW == iWideLarge) || (oH == iHighLarge)) {
+            nW = iWideSmall;
+            nH = iHighSmall;
+        } else {
+            nW = iWideLarge;
+            nH = iHighLarge;
+        }
+        whichImage.style.width = nW;
+        whichImage.style.height = nH;
+    }
+
 })();

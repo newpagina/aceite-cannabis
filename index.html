@@ -8,7 +8,28 @@
     <link rel="stylesheet" href="css/estilo.css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>cannabis medicinal</title>
+
+    <script type='text/javascript'>
+        //<![CDATA[
+        var nW, nH, oH, oW;
+
+        function zoomToggle(iWideSmall, iHighSmall, iWideLarge, iHighLarge, whichImage) {
+            oW = whichImage.style.width;
+            oH = whichImage.style.height;
+            if ((oW == iWideLarge) || (oH == iHighLarge)) {
+                nW = iWideSmall;
+                nH = iHighSmall;
+            } else {
+                nW = iWideLarge;
+                nH = iHighLarge;
+            }
+            whichImage.style.width = nW;
+            whichImage.style.height = nH;
+        }
+        //]]>
+    </script>
 </head>
+
 
 <body class="body">
 
@@ -104,14 +125,6 @@
 
     </header>
 
-
-
-    <figure>
-        <img src="img/fondo 2.jpg" id="fondo2">
-        <img src="img/lis.jpg" id="fo">
-
-    </figure>
-
     <div class="list">
         <ul>
             <li>Anti-inflamatorio</li>
@@ -130,6 +143,16 @@
             <li>Preventivo de la Recaída y del Síndrome de Abstinencia</li>
         </ul>
     </div>
+
+
+
+    <figure>
+        <img src="img/fondo 2.jpg" id="fondo2">
+        <img src="img/lis.jpg" width="20%" height="20%" onclick="zoomToggle('30%','20%','250px','250px',this);" id="fo">
+
+    </figure>
+
+
 
 
 
